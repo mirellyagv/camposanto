@@ -42,7 +42,7 @@
 							</a>
 							<div class="m-wizard__step-info">
 								<div class="m-wizard__step-title">
-									1. Información general
+									1. Inf. general
 								</div>
 							</div>
 						</div>
@@ -550,16 +550,16 @@
                		 							<table class="table table-fixed" id="servAgregados">
 													<thead style="text-align: center;">
 														<tr>
-															<th style="width:18rem;">
+															<th style="width:12.5rem;">
 																Servicio
 															</th>
 															<th style="width:5rem;">
 																Ctd
 															</th>
-															<th style="width:7rem;">
+															<th style="width:6.5rem;">
 																P. lista
 															</th>
-															<th style="width:7rem;">
+															<th style="width:6.5rem;">
 																P. venta
 															</th>
 															<th style="width:7.5rem;">
@@ -568,22 +568,22 @@
 															<th style="width:7.5rem;">
 																Imp. total
 															</th>
-															<th style="width:6.7rem;">
+															<th style="width:6.5rem;">
 																FOMA
 															</th>
-															<th style="width:9.5rem;">
-																Imp. carencias
+															<th style="width:6.5rem;">
+																Carencia
 															</th>
 															<th style="width:6.5rem;">
 																Imp. CUI
 															</th>
-															<th style="width:8rem;">
-																Imp. endoso
+															<th style="width:6.5rem;">
+																Endoso
 															</th>
-															<th style="width:7rem;">
-																Imp. saldo
+															<th style="width:6.5rem;">
+																Saldo
 															</th>
-															<th style="width:5rem;">
+															<th style="width:4.5rem;">
 																Acción
 															</th>
 														</tr>
