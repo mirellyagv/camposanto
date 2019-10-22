@@ -69,7 +69,8 @@ $_SESSION['captcha'] = simple_php_captcha();
 		        			$_GET["ruta"] == "genContrato2" ||
 		        			$_GET["ruta"] == "genContrato" ||
 		        			$_GET["ruta"] == "wizard" ||
-		        			$_GET["ruta"] == "wizard--"){
+		        			$_GET["ruta"] == "wizard--" ||
+		        			$_GET["ruta"] == "periodo-venta"){
 
 		           		   	include "modulos/".$_GET["ruta"].".php";
 
@@ -126,7 +127,8 @@ $_SESSION['captcha'] = simple_php_captcha();
 
         <?php
         if(isset($_GET["ruta"])){
-            if($_GET["ruta"] == 'wizard'){  
+            if($_GET["ruta"] == 'wizard' ||
+        		$_GET["ruta"] == 'periodo_venta'){  
                 echo '<script type="text/javascript" src="vista/js/'.$_GET["ruta"].'.js"></script>';
             }
         }
