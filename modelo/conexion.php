@@ -11,7 +11,7 @@ class Conexion{
     $this->nombreBD = $nombreBD;*/
 
     $connection = array("Database"=>"BDUS_CK000050_0001","UID"=>"userclient","PWD"=>"asociados517",'CharacterSet' => 'UTF-8');
-    $this->link = sqlsrv_connect("KQ_ANALISTA\SQLSERVER",$connection);
+    $this->link = sqlsrv_connect("209.45.50.210",$connection);
     if (!$this->link) {
         echo "Error: No se pudo conectar a Sql." . PHP_EOL;
         //echo "errno de depuración: " . mysqli_connect_errno() . PHP_EOL;
